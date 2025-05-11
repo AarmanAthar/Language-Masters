@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Masters</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="output.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <h1>Welcome to Language Masters</h1>
-    <p>Your one-stop solution for language learning.</p>
+    <div class="container">
+    <a href="words.html"><button class="prime">About</button></a>    
+    <a href="words.html"><button class="prime">Courses</button></a>  
+    <a href="table.html"><button class="prime">Current List</button></a>  
+    <a href="words.html"><button class="prime">Contact</button></a>  
 
+</div>
+    <h1 class = "title">Welcome to Language Masters</h1>
+    <p>Your one-stop solution for language learning.</p>
+<div>
+  <form id="wordForm">
+        <label for="word">Word:</label>
+        <input type="text" id="word" name="word" required>
+        <label for="meaning">Meaning:</label>
+        <input type="text" id="meaning" name="meaning" required>
+        <button type="submit">Add to Table</button>
+    </form>
+</div>
 </body>
 </html>
