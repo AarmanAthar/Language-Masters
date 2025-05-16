@@ -85,14 +85,13 @@ margin-left: 450px;
 }   
 @keyframes bounce {
   0%, 100% {
-    transform: translateY(0px);
+    transform: translateX(20px);
   }
   50% {
     transform: translateY(-20px);
   }
-
 }
 
-.word1word2{
+.word1{
   animation: bounce 1s infinite;
 }
