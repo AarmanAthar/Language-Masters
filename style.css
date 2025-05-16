@@ -49,3 +49,50 @@ body {
         th {
             background-color:  #afdeeb;
         }
+.course1{
+color: rgb(2, 2, 2);
+font-family:cursive;
+margin-left: 450px;
+}
+
+.word1{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight:1000;
+    margin-top: 100px;
+    margin-left :100px;
+}   
+.word2{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight:1000;
+    margin-top: px;
+    margin-left :500px;
+}   
+.word3{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight:1000;
+    margin-top: 0px;
+    margin-left:700px;
+}   
+.word4{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight:1000;
+    margin-top: px;
+    margin-left :200px;
+}   
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+
+}
+
+.word1word2{
+  animation: bounce 1s infinite;
+}
